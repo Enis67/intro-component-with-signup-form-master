@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper flex">
+      <div class="learn flex">
+        <h1>Learn to code by watching others</h1>
+
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="maximized flex">
+        <div class="first-bold-container">
+          <p class="try">
+            Try it free 7 days <span>then</span>
+            <span class="line-br">$20/mo. thereafter</span>
+          </p>
+        </div>
+        <div class="categories">
+          <div class="data">
+            <input type="text" placeholder="First Name" class="first-name name input-width" />
+            <p class="hidden-p first-empty">First Name cannot be empty</p>
+            <input type="text" placeholder="Last Name" class="last-name name input-width"/>
+            <p class="hidden-p second-empty">Last Name cannot be empty</p>
+            <input type="email" placeholder="Email Address" class="email name input-width"/>
+            <p class="hidden-p third-empty">Email Address Name cannot be empty</p>
+            <input type="password" placeholder="Password" class="password name input-width" />
+            <p class="hidden-p fourth-empty">Password Name cannot be empty</p>
+          </div>
+          <img src="" alt="">
+          <button>Claim your free trial</button>
+
+          <div class="second-bold-container">
+            <p class="agree">
+              By clicking the button, you are agreeing to our
+              <span>Terms and Services</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+<p class="attribution">
+  Challenge by
+  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+    >Frontend Mentor</a
+  >. Coded by <a href="#">Your Name Here</a>.
+</p>
